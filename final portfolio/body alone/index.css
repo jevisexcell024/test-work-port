@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    height:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul li a{
+    color: white;
+}
+nav .logo a{
+    color: rgb(255, 213, 3);
+    font-size: 26px;
+}
+
+body{
+    min-height: 100vh;
+    background: url(image/game.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info{
+    position: absolute;
+    top: 280px;
+    left: 170px;
+}
+.h1{
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.831);
+    font-size: 60px;
+}
+.jevis{
+    color: rgb(255, 213, 3);
+}
+.excell{
+    color: rgb(255, 255, 255);
+}
+button{
+    height: 40px;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    background: rgb(192, 2, 94);
+    outline: none;
+    border: none;
+}
